@@ -1,261 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Portfolio Website-Ankit</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">Ankit Shejole</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#project">Projects</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Resume">Resume</a>
-                    </li> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
-            </div>
+    <div class="container">
+        <div class="wave">
+            <img src="bg.png" alt="">
         </div>
-    </nav>
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, it's me Ankit P. Shejole</h2>
-                <p class="hero_desc">I am a professional Software Developer from Pune</p>
-            </div>
-            </div>
-        </div>
-    </section>
 
-    
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/ankishiva.jpg" class= "imageAboutPage" alt="">
-                </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Book a safari</a></li>
+                <li><a href="#">Enquiry</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <img src="mogli.jpg" alt="">
+        </nav>
 
-                <div class="col-lg-8">
-                    <p> Passionate Software Engineer with 3+ years of experience in developing web applications and backend systems. 
-                        Skilled at writing clear, concise code that is easy to maintain and troubleshoot.Experienced in working with
-                         both small and large teams across multiple projects and companies. Able to work independently of remote locations 
-                         or in office environments as needed by the company.</p>
-                 </div>
-            </div>
-    </section>
+        <div class="main-content">
 
-
-    <section id="experience">
-        <div class="container">
-            <h1 class="text-center">Experience</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class="fas servicesIcon fa-clock"></i>
-                            <h4 class="card-title mt-3">Core Java</h4>
-                            <p class="card-text mt-3">It is a part of the Java programming language that one can use for developing or creating a general-purpose app. 
-                             Its main focus is to build such general applications.
-                            The J2SE (Java Standard Edition) is known as Core Java.
-                             It mainly covers concepts of object-oriented programming (OOP).
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-layer-group'></i>
-                            <h4 class="card-title mt-3">Advanced Java</h4>
-                            <p class="card-text mt-3"> Advanced Java is also a part of Java programming language that generally deals with online application like 
-                            the website and mobile application. Below is the difference between the two: Core Java. Advanced Java.
-                            To develop general purpose applications.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='far servicesIcon fa-check-circle'></i>
-                            <h4 class="card-title mt-3">Spring Boot</h4>
-                            <p class="card-text mt-3">Spring Boot is an open-source, microservice-based Java web framework offered by Spring,
-                             particularly useful for software engineers developing web apps and microservices.
-                            </p>
-                        </div>
-                    </div>  
+            <div class="image-pista">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img3.png" alt=""></div>    
+                        <div class="swiper-slide"><img src="img8.png" alt=""></div> 
+                    </div> 
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-search'></i>
-                            <h4 class="card-title mt-3">Hibernate</h4>
-                            <p class="card-text mt-3">It is a java framework that is used to develop persistence logic.
-                            More precisely Hibernate is an open-source, non-invasive, lightweight java ORM(Object-relational mapping) 
-                            framework to develop objects which are independent of the database software and make 
-                            independent persistence logic in all JAVA, JEE.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-shield-alt'></i>
-                            <h4 class="card-title mt-3">Exception handling</h4>
-                            <p class="card-text mt-3">Exception handling is the process of responding to unwanted or unexpected
-                            events when a computer program runs. Exception handling deals with these events to avoid the program 
-                            or system crashing, and without this process, exceptions would disrupt the normal operation of a program.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-wrench'></i>
-                            <h4 class="card-title mt-3">Angular</h4>
-                            <p class="card-text mt-3">Angular is a development platform, built on TypeScript.
-                             As a platform, Angular includes: A component-based framework for building scalable web applications.
-                             A collection of well-integrated libraries that cover a wide variety of features, including routing, 
-                             forms management, client-server communication, and more.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="project">
-        <div class="container mt-3">
-            <h1 class="text-center">Projects</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/childenSchoolLoanjpg.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Children School Loan</h4>
-                            <p class="card-text">The education of their children is a critical goal for almost all Indian parents.
-                            However, while providing the best education is priority, not many parents may
-                            actually be able to meet this goal. This is because the cost of education has been
-                            spiraling over the years, with education inflation pegged at a whopping 10%. Starting
-                            to save early is critical. If parents start to save for their child’s education immediately
-                            after the birth of the child, they would have 18 years to save for graduation and 21 for
-                            higher studies</p>
-                            <div class="text-center">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/veena.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Veena Tours And Travels</h4>
-                            <p class="card-text">This application allows users to book bus tickets from anywhere and anytime. The
-                            user can easily book their tickets and cancel tickets. The user can view all the details
-                            of the website, bus, and drive. The user can also view the details of the journey and
-                            the details of the journey timings.</p>
-                            <div class="text-center">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-
-  
-    <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact Me</h1>
-
-         
-            <div class="text-center">
-                
-                
-                     Name: Ankit Parmeshwar Shejole <br>
-                        Occupation: Software Developer<br>
-                        City: Pune<br>
-                        Experience: 3 years 3 Months<br>
-                       Email: ankitshejole786@gmail.com<br>
-                      Phone: +91 9405710241<br>
-                   
-                  
-            </div>
-
+            <div class="main-text">
+                <h1>The Forest Book</h1>
+                <p>Spend Some time in the heart of Jungle</p>
+                <button>Know More</button>
             </div>
         </div>
 
-       
-    </section>
-
-    <section>
-        <section id="resume">
-            <div className="button">
-                <a href="./images/AnkitPShejoleResume (2) (1).pdf" className="btn btn-outline" download>Download Resume
-                </a>
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>100% Joy</h3>
+                    <p>you would love the nature</p>
+                </div>
             </div>
-     </section>
-    
-    <footer id="footer">
-        <div class="container-fluid">
-            <!-- social media icons -->
-            <div class="social-icons mt-4">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            <div class="box">
+                <div class="image">
+                    <img src="img5.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Not Expensive</h3>
+                    <p>a small trip with your family</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img6.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Super Fun</h3>
+                    <p>Enjoy the thrill with wild animals</p>
+                </div>
             </div>
         </div>
-    </footer>
 
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
-
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
 </body>
 
 </html>
